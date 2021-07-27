@@ -228,9 +228,9 @@ public class VaccinationReportManager extends ActivatedReportManager {
 		_0mTo1y.setMaxAgeUnit(DurationUnit.MONTHS);
 		
 		AgeCohortDefinition _1To2y = new AgeCohortDefinition();
-		_1To2y.setMinAge(11);
+		_1To2y.setMinAge(12);
 		_1To2y.setMinAgeUnit(DurationUnit.MONTHS);
-		_1To2y.setMaxAge(23);
+		_1To2y.setMaxAge(24);
 		_1To2y.setMaxAgeUnit(DurationUnit.MONTHS);
 		
 		VisitCohortDefinition _prenatal = new VisitCohortDefinition();
